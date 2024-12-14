@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Chessmate Minds Club</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: blanchedalmond;
+            color: #333;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a.active, nav ul li a:hover {
+            color: white; 
+        }
+
+        .about-header {
+            background-image: url('images/chess-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color:black;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .about-header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .about-header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        .about-content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .about-description {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .about-description h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .about-description p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .team-section {
+            text-align: center;
+        }
+
+        .team-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .team-member {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            max-width: 300px;
+            margin: 0 auto;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .team-member:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .team-member h3 {
+            font-size: 1.5rem;
+            margin: 15px 0 5px;
+        }
+
+        .team-member p {
+            font-size: 1rem;
+            color: #777;
+        }
+
+        .team-member .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .team-member .btn:hover {
+            background: #FFD700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="https://www.chess.com/home">Play Chess</a></li>
+        </ul>
+    </nav>
+
+    <header class="about-header">
+        <h1>About Chessmate Minds Club</h1>
+        <p>Where strategy meets camaraderie!</p>
+        <img src="./Photo.jpg" height="300">
+    </header>
+    
+    <section class="about-content">
+        <div class="about-description">
+            <h2>Who Are We?</h2>
+            <p>
+                Chessmate Minds Club (CMC) is a community of chess enthusiasts at CMRIT. 
+                Whether you're a seasoned player or just starting your journey, our club provides a platform to learn, compete, and grow.
+            </p>
+            <p>
+                Our mission is to nurture critical thinking, foster friendships, and promote chess as a strategic, enjoyable pastime for students.
+            </p>
+        </div>
+
+        <div class="team-section">
+            <h2>Meet Our President</h2>
+            <div class="team-member">
+                <h3>Ajitesh Kumara</h3>
+                <p>Captain</p>
+                <a href="./resume.html" class="btn">View Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Chessmate Minds Club, CMRIT. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
